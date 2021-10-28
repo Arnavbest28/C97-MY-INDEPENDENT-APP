@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-warning" onclick="logout();"> Logout</button>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+			<sup>
+				<img id="kl" src="kwitter.png">
+			</sup>
+		</h1>
+        <h3 id="fso">#FOR SPEACIAL ONES</h3>
+		<h3 class="color_white"></h3>
+        <br>
+        <hr>
+		<h3 id="user_name" class="color_white"></h3>
+<b><hr>
+		<div class="form-group input_div_room_page">
+			<h2 id="ar">#Add Room:</h2>
+
+		</div>
+		<input id="room_name" placeholder="Room Name">
+		<br>
+		<br>
+		<button class="btn btn-danger" onclick="addRoom();">#Add Room</button>
+        <br><br><hr>
+		<h3 class="tr"><b>#TRENDING ROOMS</b></h3>
+		<div id="TR">
+			
+			<h4>#Lengendry</h4>
+			<h4>#AA12</h4>
+			<h4>#MSD7</h4>
+			<h4>#Galaxy</h4>
+			<h4>#ABD</h4>
+			<h4>#GameOn</h4>
+			<h4>#JourneyToTheEnd</h4>
+			<h4>#Lengendry</h4>
+			<h4>#CR7</h4>
+			<h4>#SuperBlue</h4>
+			<h4>#MinecraftChat</h4>
+			<h4>#SmashKartsChat</h4>
+			<h4>#WeAreSuper</h4>
+		</div>
+		<br><br>
+	
+	</center>
+</div>
+<script src="kwitter_room.js"></script>
+</body>
+</html>
